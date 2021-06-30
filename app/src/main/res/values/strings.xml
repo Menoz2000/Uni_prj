@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Uni_prj</string>
+    <string name="app_name">Cocktails</string>
+
+    <string name="text_label1">Naviga</string>
+    <string name="text_label2">Cocktails</string>
+    <string name="text_label3">Ingredienti</string>
+    <string name="text_label4">Utente</string>
 </resources>
