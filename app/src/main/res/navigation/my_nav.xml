@@ -20,4 +20,9 @@
         android:name="com.example.uni_prj.IngredientFragment"
         android:label="@string/text_label3"
         tools:layout="@layout/fragment_ingredient" />
+    <fragment
+        android:id="@+id/bookFragment"
+        android:name="com.example.uni_prj.BookFragment"
+        android:label="fragment_book"
+        tools:layout="@layout/fragment_book" />
 </navigation>

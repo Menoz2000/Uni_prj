@@ -4,7 +4,6 @@
     <string name="text_label1">Naviga</string>
     <string name="text_label2">Cocktails</string>
     <string name="text_label3">Ingredienti</string>
-    <string name="text_label4">Utente</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_label4">Book</string>
+
 </resources>
