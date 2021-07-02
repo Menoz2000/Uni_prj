@@ -8,7 +8,7 @@ import androidx.navigation.ui.NavigationUI;
 import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.navigation.NavigationView;
+//import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -17,15 +17,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        try {
-            BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
-            NavController navController = Navigation.findNavController(this, R.id.fragmentContainerView);
-            NavigationUI.setupWithNavController(bottomNavigationView, navController);
-
-        }catch (RuntimeException e) {
-
-
-        }
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
+        NavController navController = Navigation.findNavController(this, R.id.fragmentContainerView);
+        NavigationUI.setupWithNavController(bottomNavigationView, navController);
 
     }
 }
